@@ -1,0 +1,101 @@
+body{
+    background-color: #3E565C;
+    margin: 0;
+    padding: 0;
+}
+input{
+    border: none;
+    padding: .4rem;
+}
+#welcome{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(../images/background.png);
+    background-position: center center;
+    background-size: cover;
+}
+.signup{
+    background-color: #736F67;
+}
+#signup{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(../images/signup.png);
+
+}
+#signup-btn{
+    border-color: rgb(56, 15, 56);
+    background-color: rgba(67, 24, 67, 0.27);
+transition: all 0.5s;
+}
+#signup-btn:hover{
+        background-color: rgba(67, 24, 67, 0.619);
+
+}
+.login{
+     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/textbg.png);
+    background-position: center center;
+      filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+
+    background-size: cover;
+    padding: 3rem;
+    width: 50%;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(39, 31, 90, 0.5);
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%);
+    border-radius: .625rem;
+}
+.login input, button{
+    margin: 20px; 
+    border-radius: .5rem;
+}
+
+#signin-btn{
+    background-color: rgba(53, 53, 105, 0.215);
+transition: all 0.5s;
+}
+#signin-btn:hover{
+        background-color: rgba(53, 53, 105, 0.818);
+
+}
+
+label{
+    background-color: #2726246c;
+    padding: .2rem;
+    border-radius: .3125rem;
+}
+
+.nav{
+    color: white;
+        background-color: #272624e2;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+padding: 20px;
+}
+#welcome-mess{
+    padding: 3rem;
+    border-radius: .625rem;
+    color: rgb(81, 7, 81);
+    background-color: rgba(119, 108, 108, 0.249);
+    font-size: 3.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.brand{
+        padding: 10px;
+
+}
+.logout{
+    border: .125rem red solid;
+    padding: 10px;
+    border-radius: .4375rem;
+    transition: all 0.5s;
+}
+.logout:hover{
+    background-color: red;
+}

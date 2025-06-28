@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="signup">
+    <div class="login" id="signup">
+        <h1>Smart Login System</h1>
+        <form action="">
+            <input type="text" class="w-100" id="name" placeholder=" Enter Your Name!">
+            <label for="name" id="invalid-name" class="text-danger d-none">Name Must contains Only letters! </label>
+            <input type="email" class="w-100" id="email-up" placeholder=" Enter Your Email!">
+            <label for="email-up" id="invalid-email" class="text-danger d-none"> Invalid Email Format!</label>
+            <label for="email-up" id="duplicated-email" class="text-danger d-none"> This Email is already Exist!</label>
+            <input type="password" class="w-100" id="password-up" placeholder=" Enter Your Password!">
+            <label for="email-up" id="invalid-password" class="text-danger d-none"> Password must be at least 6 characters & contain only letters and numbers!</label>
+            <button type="button" onclick="createAccount()" class="btn btn-primary w-100" id="signup-btn">Sign Up</button>
+            <h5>Don’t have an account? <a href="../index.html">Signin</a></h5>
+            
+        </form>
+    </div>
+    
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
