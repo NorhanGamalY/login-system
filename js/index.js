@@ -19,7 +19,6 @@ if(  nameValidation()&& emailValidation() && emailDuplicated(emailInput.value) &
     localStorage.setItem('allAccounts', JSON.stringify(allAccounts));
     loginPage();
 }
-    // console.log(allAccounts)
   
 }
 
@@ -102,9 +101,10 @@ function welcomePage(){
 }
 
 ////////////welcomePage//////////////
+function welcomeMess(){
 let userName = JSON.parse(localStorage.getItem("user"));
 document.getElementById("welcome-mess").innerHTML = `Welcome, ${userName}!`;
-
+}
 
  
 
