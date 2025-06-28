@@ -97,7 +97,7 @@ function emailCheck(email, password){
 
 
 function welcomePage(){
-    window.location.href ="../welcome/index.html"
+window.location.href = "welcome/index.html";
 }
 
 ////////////welcomePage//////////////
